@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "type": "java",
+        "name": "Hospital",
+        "request": "launch",
+        "mainClass": "Hospital",
+        "projectName": "hospital_15ab238f"
+    },
+    {
+        "type": "java",
+        "name": "Launch JavaFX App",
+        "request": "launch",
+        "mainClass": "GUI.MainMenu",
+        "vmArgs": "--module-path \"C:\\Users\\redie\\Downloads\\Telegram Desktop\\openjfx-24.0.1_windows-x64_bin-sdk\\javafx-sdk-24.0.1\\lib\" --add-modules javafx.controls,javafx.fxml"
+    }
+]
+}
