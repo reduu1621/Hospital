@@ -18,13 +18,21 @@ import javax.swing.text.html.parser.Entity;
 
 import Entity.Appointment;
 
+
+
+
+
 public class DoctorForm extends Application {
 
     ComboBox<String> doctorList = new ComboBox<>();
 
+
+
     @Override
     public void start(Stage stage) {
         stage.setTitle("Available Dentists");
+
+
 
         loadAvailableDentists();
 
@@ -45,6 +53,12 @@ public class DoctorForm extends Application {
         stage.setScene(new Scene(root, 400, 200));
         stage.show();
     }
+
+
+
+
+
+
 
     private void loadAvailableDentists() {
         ObservableList<String> doctors = FXCollections.observableArrayList();
@@ -70,3 +84,5 @@ public class DoctorForm extends Application {
         alert.showAndWait();
     }
 }
+
+

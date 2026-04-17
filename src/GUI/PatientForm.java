@@ -40,6 +40,8 @@ public class PatientForm extends Application {
         grid.setHgap(10);
         grid.setVgap(10);
 
+
+        
         grid.add(new Label("Name:"), 0, 0);
         grid.add(nameField, 1, 0);
 
